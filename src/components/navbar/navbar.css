@@ -21,8 +21,16 @@
 .navButton {
   margin-left: 20px;
   border: 1px solid #003580;
-  border-radius: 10px;
-  padding: 5px 10px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
   cursor: pointer;
   color: #003580;
+}
+
+.navButton:hover {
+  box-shadow: inset;
+  background-color: lightgrey;
+  scale: 1.07;
+  transition: scale ease-in-out 0.1s, background-color ease-in-out 0.1s;
 }
